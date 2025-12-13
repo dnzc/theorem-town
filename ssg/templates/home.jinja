@@ -5,22 +5,24 @@
         <h1>Notes | danielc.rocks</h1>
 
         <div className="space-y-6 py-6">
-        <p>Hello, World!</p>
-        <div className="flex justify-evenly mt-2">
-            <AUTOSVG src='mobius/readme/concentricannulus.svg' width='200' height='200'/>
-            <AUTOSVG src='mobius/inversion/exampleproblem.svg' width='200' height='200'/>
-            <AUTOSVG src='cubetilings/cubetilings2.svg' width='200' height='200'/>
-        </div>
-        <p>I use this site to host my notes on various mathematical topics, in case they're of use to anyone. You can think of it like my "knowledge base" or "digital garden"... I think that's what the cool kids call it nowadays.</p>
-        <p>It started out as a fun little side project in Next.js, but (probably because I need to get help) over time I added more and more and ended up building a fully fledged static site generator from scratch.</p>
-        <p><code>This site contains {{ article_count }} articles and {{ word_count }} words.</code></p>
-        <p>At some point I realised I wanted a <DiscreetLink href="https://danielc.rocks">homepage</DiscreetLink> with a more conventional blog-like feel, so because I'm not an idiot, I used a well-known SSG this time (<DiscreetLink href="https://www.getzola.org">Zola</DiscreetLink>) instead of reinventing the wheel AGAIN. It was pretty cool to see the similarities between how Zola generates content and how I dreamt up how to do it.</p>
-        <p>Now, I could point out all the cool features of this site, like theme-aware SVGs and demarcated theorem blocks. Or I could tell you to go read some maths. I think I prefer the latter.</p>
+            <p>Hello, World!</p>
+            <div className="flex justify-evenly mt-2">
+                <AUTOSVG src='mobius/readme/concentricannulus.svg' width='200' height='200'/>
+                <AUTOSVG src='mobius/inversion/exampleproblem.svg' width='200' height='200'/>
+                <AUTOSVG src='cubetilings/cubetilings2.svg' width='200' height='200'/>
+            </div>
+            <p>I use this site to host my notes on various mathematical topics, in case they're of use to anyone. You can think of it like my "knowledge base" or "digital garden"... I think that's what the cool kids call it nowadays.</p>
+            <p>It started out as a fun little side project in Next.js, but over time I added more and more until I ended up building a fully fledged static site generator from scratch. (Whoops. Probably could have spent that time learning how to cook or something.)</p>
+
+            <p>So far I've written {{article_count}} articles and {{word_count}} words. I'm sporadically adding new content - if anything is unfinished you can <DiscreetLink href="https://admonymous.co/chen">complain</DiscreetLink> to me :)</p>
+            <p>Now, I could point out all the cool features of this site, like theme-aware diagrams and demarcated theorem blocks. Or I could tell you to go read some maths. I think I prefer the latter.</p>
         </div>
 
         <RandomLink articles={ {{random_content_paths}} } className="inline-flex items-center justify-center px-5 py-3 text-lg text-center font-bold rounded-lg bg-button hover:bg-button-hover focus:ring-4 focus:ring-gray-100 transition-colors duration-150 ease-in-out">
             Take me somewhere random
         </RandomLink>
+
+        <p className="pt-6 text-sm text-text-secondary">If you're curious, here's a bit more <DiscreetLink href="https://danielc.rocks">about me</DiscreetLink>.</p>
     </section>
 
     <section>

@@ -1,8 +1,13 @@
 # Bugs to Fix
 
+# Unfinished
+
+- write proper motivating description for A&T course, fill out content
+
 # Functionality to Add
 
-- convolution explainer + ConvolutionDemo component (beginning xkcd-style svg)
+- backlinks (figure out where to display on page, potentially: underneath toc in right sidebar, so only visible on xl)
+
 - runnable python blocks with pyodide
 
 - relevant tripos questions
@@ -12,10 +17,10 @@
     - tag preset colors, view/group by tags
     - tags page - word cloud of tags?
 
-- backlinks (figure out where to display on page, potentially: underneath toc in right sidebar, so only visible on xl)
-
 
 # Content Ideas
+
+- convolution explainer + ConvolutionDemo component (beginning xkcd-style svg)
 
 - "the hack to solving cyclical random walk questions" "the hack for multivariate derivatives"
 
